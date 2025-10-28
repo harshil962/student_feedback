@@ -1,4 +1,9 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+
+<?php
 $title = "Home";
 include 'includes/header.php';
 include 'includes/db.php';
